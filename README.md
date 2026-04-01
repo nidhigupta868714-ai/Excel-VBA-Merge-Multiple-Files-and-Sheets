@@ -20,9 +20,13 @@ Saves significant manual effort and time
 
 ## 🛠️ Skills Demonstrated
 VBA Automation
+
 File Handling using VBA
+
 Looping through Workbooks and Worksheets
+
 Dynamic Range Detection
+
 Data Consolidation Techniques
 
 ## ▶️ How to Use
