@@ -3,7 +3,7 @@
 An Excel VBA macro that consolidates every worksheet of every Excel file in a folder into a single master sheet.
 The header is copied once, and every row is tagged with the file and sheet it came from.
 
-![Merged output](output_preview.png)
+![Merged output](output_preview.jpeg)
 
 ## Result on the sample data
 7 monthly sales files (Jan-Jul), one sheet each, merged with a single click:
@@ -12,7 +12,7 @@ The header is copied once, and every row is tagged with the file and sheet it ca
 |---|---|---|---|
 | 7 | 7 | 213 | 11 (9 original + Source File + Sheet Name) |
 
-![Merge summary](summary.png)
+![Merge summary](summary.jpeg)
 
 ## What it does
 - Opens a folder picker and reads every `.xls*` file in the selected folder
