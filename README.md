@@ -1,4 +1,4 @@
-## Excel VBA: Merge Multiple Files and Sheets into One Master Sheet
+# Excel VBA: Merge Multiple Files and Sheets into One Master Sheet
 
 An Excel VBA macro that consolidates every worksheet of every Excel file in a folder into a single master sheet.
 The header is copied once, and every row is tagged with the file and sheet it came from.
@@ -30,14 +30,14 @@ The header is copied once, and every row is tagged with the file and sheet it ca
 |---|---|
 | `Merge_Multiple_Files_and_Sheets.xlsm` | Workbook with the macro and a "Click Here" button |
 | `MergeFiles.bas` | The VBA module, exported for easy viewing or import |
-| `sample_data/` | 7 monthly sample files used for the demo |
-| `output_preview.png`, `summary.png` | Screenshots of the result |
+| `sample_data.zip` | 7 monthly sample files used for the demo |
+| `output.jpeg`, `summary.jpeg` | Screenshots of the result |
 
 ## How to use
-1. Download the repository and open `Merge_Multiple_Files_and_Sheets.xlsm`
-2. Click **Enable Content** when Excel asks to enable macros
+1. Download the repository and extract `sample_data.zip` into a folder
+2. Open `Merge_Multiple_Files_and_Sheets.xlsm` and click **Enable Content** when Excel asks to enable macros
 3. Click the **Click Here** button on Sheet1
-4. Select the `sample_data` folder (or any folder with your own Excel files)
+4. Select the extracted sample data folder (or any folder with your own Excel files)
 5. A new sheet with the merged data is created, and a summary box appears
 
 If macros are blocked on a downloaded file: right-click the file, choose **Properties**, tick **Unblock**, then reopen it.
@@ -66,9 +66,8 @@ Merging monthly or weekly MIS reports, consolidating branch-wise or region-wise 
 removing repetitive copy-paste work from recurring reporting
 
 ## Credits and sample data
-The approach was learned from Satish Dhawale's YouTube tutorial on merging files in Excel, and the 7 sample
+The approach was learned from a YouTube tutorial on merging files in Excel by Satish Dhawale, and the 7 sample
 files (ABC Sales Data, Jan-Jul) come from that tutorial. They are used here only for practice and demonstration.
-Tutorial: <paste the video link here>
 
 I extended the original approach with source-file and sheet tracking, lock-file and self-file skipping,
 column-count validation, last-row detection across all columns, error handling and a merge summary.
